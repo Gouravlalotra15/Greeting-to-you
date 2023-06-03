@@ -7,7 +7,7 @@ let cssStyle={
 }
 
 let greeting ='';
-let currentTime= new Date(2023,6,4,12).getHours();
+let currentTime= new Date().getHours();
 if(currentTime>=1&&currentTime<12)
 {
   greeting='Good Morning';
